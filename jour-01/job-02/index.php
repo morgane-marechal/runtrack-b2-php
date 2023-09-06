@@ -9,7 +9,8 @@ function my_str_reverse(string $string) : string{
     }
 
     for ($j= $str_length; $j >= 0; $j--) {
-      array_push($newArray, $string[$j]);
+      //array_push($newArray, $string[$j]);
+      $newArray[]=$string[$j];
     }
     //var_dump($newArray);
 
