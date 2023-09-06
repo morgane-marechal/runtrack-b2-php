@@ -29,6 +29,7 @@ function my_fizz_buzz(int $length) : array{
 my_fizz_buzz(12);
 //echo "<br>";
 print_r(my_fizz_buzz(21));
+my_fizz_buzz("test_string");
 
 
 
