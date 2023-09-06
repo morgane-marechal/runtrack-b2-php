@@ -18,7 +18,6 @@ function my_str_reverse(string $string) : string{
     }
     echo $newString;
 }
-
 echo my_str_reverse('hello World');
 
 ?>
