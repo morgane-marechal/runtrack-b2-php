@@ -40,7 +40,7 @@ $allStudents = find_all_students();
     </tr>
   </thead>
   <tbody>
-    <?php for ($i = 0; $i <= 24; $i++) { ?>
+    <?php for ($i = 0; $i <= 300; $i++) { ?>
         <tr>
         <td><?=$allStudents[$i]["id"];?></td>
         <td><?=$allStudents[$i]["grade_id"];?></td>
