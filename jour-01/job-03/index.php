@@ -9,5 +9,5 @@
 
      }
 
-   echo  my_is_multiple(2,15);
+   echo  my_is_multiple(2,10);
 ?>
